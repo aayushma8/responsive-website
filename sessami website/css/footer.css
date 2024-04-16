@@ -1,0 +1,127 @@
+
+
+
+footer {
+  width: 100%;
+  background-color: rgb(215, 214, 214);
+  padding: 1rem 2rem;
+}
+
+.footer {
+  background-color: rgb(215, 214, 214);
+}
+
+.footer-img {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+
+.footer-description h4 {
+  font-size: 22px;
+}
+
+.f-title
+{
+    padding: 12px 0;
+}
+
+.footer-description ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.hosting-events, .features, .sessami, resources{
+    width: 180px;
+  }
+
+
+.footer-description a,
+.end a {
+  text-decoration: none;
+  color: black;
+  
+}
+
+.first ul li {
+  list-style: none;
+}
+
+.second ul li {
+  list-style: none;
+}
+
+.footer-description a:hover, .end a:hover {
+  text-decoration: underline;
+  
+}
+
+.end {
+  /* padding-top: 1rem; */
+  padding: 2rem 2rem;
+}
+
+@media screen and (min-width: 800px) {
+  .footer-description {
+    display: flex;
+    justify-content:space-between ;
+    gap: 24px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 2.8rem;
+  }
+ 
+  .end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+
+
+@media screen and (min-width: 966px) {
+  .footer-description {
+    gap: 48px;
+  }
+  .footer {
+    gap: 80px;
+  }
+
+
+}
+@media screen and (min-width: 1196px) {
+  .footer{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 200px;
+  }
+  
+  .footer-img{
+    width: 24vw;
+    
+  }
+
+  .footer-description{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .end{
+    display: flex;
+    gap: 80px;
+    margin: 0 auto;
+  }
+
+  .links li{
+    display: inline-block;
+    margin-right: 16px;
+  }
+}
