@@ -1,0 +1,66 @@
+.section3 {
+  padding: 40px 0;
+  height: 516px;
+  width: 100%;
+  display: flex;
+  padding: 1rem 2rem;
+}
+
+.girl {
+  padding: 1rem 2rem;
+  width: 67%;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  box-sizing: border-box;
+}
+
+.girl-img {
+  float: right;
+  width: 100%;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: all 0.4s ease-out;
+}
+
+.description {
+  width: 32%;
+  height: 40%;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 20;
+  padding: 20px 40px 20px 25px;
+  margin-top: 18vh;
+  margin-left: 12vh;
+  line-height: 1.3rem;
+  box-sizing: border-box;
+  transition: all 0.4s ease-out;
+}
+
+.description h3 {
+  font-size: 42px;
+  line-height: 2.4rem;
+}
+.description p {
+  margin-bottom: 22px;
+  margin-top: 22px;
+}
+
+.host {
+  width: 132px;
+}
+
+@media only screen and (max-width) {
+    
+
+.section3{
+    top: 500px;
+}
+
+.description{
+    width: 50%;
+    height: 150px;
+    border-radius: 8px;
+}
+}
